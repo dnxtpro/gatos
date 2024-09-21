@@ -3,3 +3,21 @@
     position:absolute;
 
 }
+.xw {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100; /* Asegúrate de que esté en primer plano */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de fuente */
+  background-color: #ffcc00; /* Color de fondo */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  transition: background-color 0.3s; /* Transición suave al cambiar de color */
+}
+
+.xw:hover {
+  background-color: #ffbb00; /* Color de fondo al pasar el mouse */
+}

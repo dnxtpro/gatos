@@ -81,7 +81,20 @@ const App = () => {
 
   return (
     <div style={{ position: 'relative', width: '100vw', height: '100vh' }}>
-      <button onClick={addNewCat} style={{ position: 'absolute', zIndex: 10, top: 20, left: 20 }}>
+      <button onClick={addNewCat}  style={{
+    position: 'absolute',
+    zIndex: 100,
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    padding: '10px 20px',
+    fontSize: '16px',
+    backgroundColor: '#ffcc00',
+    border: 'none',
+    borderRadius: '5px',
+    cursor: 'pointer',
+    transition: 'background-color 0.3s',
+  }}>
         Crear Gato
       </button>
 
