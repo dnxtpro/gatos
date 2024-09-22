@@ -21,3 +21,9 @@
 .xw:hover {
   background-color: #ffbb00; /* Color de fondo al pasar el mouse */
 }
+.image-container {
+  mask-image: url('cat (1).png'); /* Usa tu PNG como máscara */
+  mask-size: contain; /* Ajusta el tamaño de la máscara */
+  mask-repeat: no-repeat; /* Evita la repetición */
+}
+
