@@ -126,7 +126,13 @@ const App = () => {
   </div>
   <div onPointerDown={startDrag} />
   <div onPointerDown={startDrag} style={{ touchAction: "none" }} />
-  {/* Gatos que salen del botón */}
+  <motion.div drag dragConstraints={{      top: -50,
+      left: -50,
+      right: 50,
+      bottom: 50,}} className=" w-1/2 absolute top-1/2 left 1/4">
+    HOLA
+  </motion.div>
+  
   {positions.map((pos) => (
     
     <motion.img
