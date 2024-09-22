@@ -3,8 +3,7 @@ import { motion } from 'framer-motion';
 
 const App = () => {
   const [positions, setPositions] = useState([
-    { id: 1, x: 0, y: 0, directionX: 1, directionY: 1, image: 'cat (1).png' },
-    { id: 2, x: 100, y: 100, directionX: -1, directionY: -1, image: 'cat (2).png' },
+    
   ]);
 
   const totalCats = 35; // Número total de imágenes de gatos que tienes
@@ -95,7 +94,7 @@ const App = () => {
     cursor: 'pointer',
     transition: 'background-color 0.3s',
   }}>
-        Crear Gato
+        TKI HNA A 9TETA
       </button>
 
       {positions.map((pos) => (
@@ -112,6 +111,7 @@ const App = () => {
           }}
         />
       ))}
+      
     </div>
   );
 };
