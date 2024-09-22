@@ -4,6 +4,7 @@ import { Cat, Pointer } from 'lucide-react';
 import { Copyright } from 'lucide-react';
 
 const Loader = () => {
+  
   return (
     <div className="flex h-screen bg-teal-900">
       <motion.div
@@ -25,7 +26,9 @@ const Loader = () => {
         className="flex items-center mt-10"
       >
         {/* Gato que aparece desde la izquierda */}
-        <img src='undraw_cat_epte.svg' className="w-32 text-white" />
+        <img  src='yeah.gif' className="w-32 text-white" />
+        <motion.span className="text-white text-xl ml-4" animate={{opacity:1}} initial={{opacity:0}}  transition={{ duration: 1, delay: 4.5}}>
+        MIAU</motion.span>
       </motion.div>
     </div>
   );
@@ -40,6 +43,7 @@ const App = () => {
   function startDrag(event) {
     controls.start(event)
   }
+  
   useEffect(() => {
     // Simula la carga de imágenes
     const timer = setTimeout(() => {
