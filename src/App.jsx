@@ -9,12 +9,12 @@ const Loader = () => {
     <div className="flex h-screen bg-teal-900">
       <motion.div
         className="flex items-center"
-        initial={{ opacity: 0, x: 100 }}
+        initial={{ opacity: 0, x: 100, }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
       >
         {/* SVG de la persona */}
-        <img src='undraw_focus_sey6.svg' className="w-40 text-white" /* Aquí puedes agregar tu SVG de persona */ />
+        <img src='undraw_focus_sey6.svg' className="w-52 text-white" /* Aquí puedes agregar tu SVG de persona */ />
         <motion.span className="text-white text-xl ml-4" animate={{opacity:1}} initial={{opacity:0}}  transition={{ duration: 1, delay: 2}}>
           PSPSPSPSPS</motion.span>
       </motion.div>
