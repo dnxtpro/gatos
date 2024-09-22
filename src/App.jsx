@@ -14,7 +14,7 @@ const Loader = () => {
         transition={{ duration: 1 }}
       >
         {/* SVG de la persona */}
-        <img src='undraw_focus_sey6.svg' className="w-52 text-white" /* Aquí puedes agregar tu SVG de persona */ />
+        <img src='undraw_focus_sey6.svg' className="w-40 text-white" /* Aquí puedes agregar tu SVG de persona */ />
         <motion.span className="text-white text-xl ml-4" animate={{opacity:1}} initial={{opacity:0}}  transition={{ duration: 1, delay: 2}}>
           PSPSPSPSPS</motion.span>
       </motion.div>
@@ -26,7 +26,7 @@ const Loader = () => {
         className="flex items-center mt-10"
       >
         {/* Gato que aparece desde la izquierda */}
-        <img  src='yeah.gif' className="w-32 text-white" />
+        <img  src='yeah.gif' className="w-16 text-white" />
         <motion.span className="text-white text-xl ml-4" animate={{opacity:1}} initial={{opacity:0}}  transition={{ duration: 1, delay: 4.5}}>
         MIAU</motion.span>
       </motion.div>
